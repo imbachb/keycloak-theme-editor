@@ -1,0 +1,27 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.password-reveal {
+  margin-left: -40px;
+  font-size: 18px !important;
+}
+
+::-ms-reveal {
+    display: none;
+}
+
+div.kc-logo-text {
+    background-image: url(../../img/example/example-logo.png);
+    background-repeat: no-repeat;
+    height: 63px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  div.kc-logo-text {
+      margin: 0;
+      width: 150px !important;
+      height: 32px;
+      background-size: 100%;
+  }
+}
